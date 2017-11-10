@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MsmqStomp", "MsmqStomp\MsmqStomp.csproj", "{09926E0F-2AEA-4B08-9C64-21E08EEB1178}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{06EAEBEE-FD21-4183-9B4C-D045FEEB38FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09926E0F-2AEA-4B08-9C64-21E08EEB1178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09926E0F-2AEA-4B08-9C64-21E08EEB1178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09926E0F-2AEA-4B08-9C64-21E08EEB1178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09926E0F-2AEA-4B08-9C64-21E08EEB1178}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06EAEBEE-FD21-4183-9B4C-D045FEEB38FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06EAEBEE-FD21-4183-9B4C-D045FEEB38FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06EAEBEE-FD21-4183-9B4C-D045FEEB38FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06EAEBEE-FD21-4183-9B4C-D045FEEB38FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
