@@ -7,7 +7,7 @@
     <ProjectGuid>{06EAEBEE-FD21-4183-9B4C-D045FEEB38FA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UnitTests</RootNamespace>
+    <RootNamespace>BusterWood.Stomp.UnitTests</RootNamespace>
     <AssemblyName>UnitTests</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -52,9 +52,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MsmqStomp\MsmqStomp.csproj">
-      <Project>{09926E0F-2AEA-4B08-9C64-21E08EEB1178}</Project>
-      <Name>MsmqStomp</Name>
+    <ProjectReference Include="..\Stomp\Stomp.csproj">
+      <Project>{84980762-be5d-49bf-8da5-4301f9fd042c}</Project>
+      <Name>Stomp</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

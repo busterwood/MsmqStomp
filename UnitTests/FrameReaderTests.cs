@@ -1,10 +1,9 @@
-﻿using MsmqStomp;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UnitTests
+namespace BusterWood.Stomp.UnitTests
 {
     [TestFixture]
     public class FrameReaderTests

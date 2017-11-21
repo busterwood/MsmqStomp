@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace MsmqStomp
+namespace BusterWood.Stomp
 {
     [Serializable]
     public class FrameException : Exception

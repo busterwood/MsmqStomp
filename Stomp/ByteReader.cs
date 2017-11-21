@@ -3,7 +3,7 @@ using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MsmqStomp
+namespace BusterWood.Stomp
 {
     public class ByteReader
     {
