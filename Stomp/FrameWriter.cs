@@ -19,12 +19,12 @@ namespace BusterWood.Stomp
         public async Task Write(Frame f)
         {
             buf.Clear();
-            buf.Append(f.Command).Append(Environment.NewLine);
+            buf.Append(f.Command).AppendLine();
             foreach (var header in f.Headers)
             {
-                buf.AppendHeader(header.Key).Append(':').AppendHeader(header.Value).Append(Environment.NewLine);
+                buf.AppendHeader(header.Key).Append(':').AppendHeader(header.Value).AppendLine();
             }
-            buf.Append(Environment.NewLine);
+            buf.AppendLine();
 
             await output.WriteUtf8Async(buf);
             await output.WriteAsync(f.Body, 0, f.Body.Length);
@@ -65,6 +65,8 @@ namespace BusterWood.Stomp
             Length += s.Length;
             return this;
         }
+
+        public CharBuffer AppendLine() => Append(Environment.NewLine);
 
         /// <summary>Escapes header specific chars</summary>
         public CharBuffer AppendHeader(string header)
